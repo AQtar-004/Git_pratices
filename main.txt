@@ -1,2 +1,3 @@
 hi from git remote repo
 hi from remote repo checking difference beteeen git fetch and pull
+now checking git pull
