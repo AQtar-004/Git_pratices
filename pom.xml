@@ -68,7 +68,7 @@
    <configuration> 
       	 <url>http://18.204.219.243:8080//manager/text</url>
       <username>tomcat1</username>
-     <password>tomcat1/password> 
+     <password>tomcat1</password> 
       	 <server>TomcatServer</server>
       	 <path>/sample-webapp-new</path>
    </configuration>
