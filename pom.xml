@@ -70,7 +70,7 @@
       <username>tomcat1</username>
      <password>tomcat1</password> 
       	 <server>TomcatServer</server>
-      	 <path>/sample-webapp-buildpipe_line</path>
+      	 <path>/sample-webapp-buildpipe-line</path>
    </configuration>
 </plugin>
       </plugins>
