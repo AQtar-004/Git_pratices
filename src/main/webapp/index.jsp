@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2><%= "Hello World from Jenkins Automation...!" %></h2>
+<h2><%= "Hello...!" %></h2>
 </body>
 </html>
