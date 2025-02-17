@@ -1,0 +1,35 @@
+pipeline{
+    agent any
+    stages{
+        stage('git checkout'){
+            steps {
+                git branch: 'main', credentialsId: 'GitHub-cred', url: 'https://github.com/AQtar-004/Jenkins-webapp-pipeline.git'
+            }
+        }
+        stage('validate'){
+            steps{
+                sh 'mvn validate'
+            }
+        }
+        stage('compile'){
+            steps{
+                sh 'mvn compile'
+            }
+        }
+        stage('test'){
+            steps{
+                sh 'mvn test'
+            }
+        }
+        stage('mvn package'){
+            steps{
+                sh 'mvn package'
+            }
+        }
+        stage('mvn deploy'){
+            steps {
+                sh 'mvn deploy'
+            }
+        }
+    }
+}
