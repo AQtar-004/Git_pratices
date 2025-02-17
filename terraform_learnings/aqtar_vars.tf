@@ -1,0 +1,4 @@
+
+variable "content" {
+  default = "this is my teeraform file that i created_initialized_configured_planned_plan-reviewed_plan-applied_A state file created_and a backup state file created_after i make changes>>and //it is infrastructured as a code// " 
+  }
